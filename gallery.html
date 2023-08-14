@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <style>
+            div.gallery{
+                border: 1px solid;
+               
+            }
+            div.gallery img:hover{
+                border: 1px solid orange;
+            }
+            div.gallery img{
+                min-width: 100%;
+                height: auto;
+                padding-bottom: 10px;
+                border: 1px solid;
+                
+            }
+            *{
+                box-sizing: border-box;
+            }
+            .responsive{
+                padding-left: 10px;
+                margin-left: 30px;
+                padding-right: 2px;
+                float: left;
+                width: 30%;
+                height: 35%;
+                background-size: contain;
+            }
+            @media only screen and (max-width: 700px) {
+              .responsive {
+                width: 49.99999%;
+             }
+            }
+
+            @media only screen and (max-width: 500px) {
+              .responsive {
+               width: 100%;
+               padding-right: 20px;
+               margin-left: 10px;
+              }
+            }
+        </style>
+    </head>
+    <body >
+        <ul>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./index.html">Home</a></li>
+        </ul>
+        <div class="responsive">
+            <div class="gallery">
+        <img src="pxfuel.jpg" alt="">
+        <img src="pxfuel (2).jpg" alt="" >
+        <img src="pxfuel (6).jpg" alt="" >
+     </div> 
+    </div>
+     
+<div class="responsive">
+    <div class="gallery">
+   <img src="pxfuel (5).jpg" alt="" >
+   <img src="pxfuel (3).jpg" alt="" >
+   <img src="pxfuel (8).jpg" alt="" >
+  </div> 
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+   <img src="pxfuel (1).jpg" alt="" >
+   <img src="pxfuel (7).jpg" alt="" >
+  </div> 
+</div>

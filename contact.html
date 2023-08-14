@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <style>
+            @media only screen and (max-width: 700px) {
+              .mail {
+                width: 49.99999%;
+             }
+            }
+
+            @media only screen and (max-width: 500px) {
+              .mail {
+               width: 100%;
+               height: auto;
+              }
+              .textfields{
+                width: 100%;
+            
+              }
+              .contactme{
+                padding-left: 10px;
+              }
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./index.html">Home</a></li>
+        </ul>
+        <div class="mail">
+            <img class="imaged" src="Lovepik_com-832421335-Color computer send mail vector icon.png" alt="">
+        </div>
+        <div class="contactme">
+            <p class="spaned">Hola!</p>
+            <p class="hear">I'd love to hear from you</p>
+            <br>
+            <br>
+            <form  action="">
+                <input class="textfields" name="name" type="text" placeholder="Name" >
+                <br>
+                <input class="textfields" name="email" type="text" placeholder="Email">
+                <br>
+                <textarea class="textfields" name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <br>
+                <input type="checkbox" name="confirm" id=""><span class="hear">
+                I confirm that I like cats
+               </span>
+                <br>
+                <input class="textfields" type="button" value="Send">
+            </form>
+        </div>
+    </body>
+</html>
